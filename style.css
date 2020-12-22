@@ -551,7 +551,7 @@ ul li {
 }
 
 .webp .bg-atlanta-20made-20sign {
-    background-image: url("/img-webp/atlanta-made-sign.webp");
+    background-image: url("img-webp/atlanta-made-sign.webp");
 }
 
 .no-webp .bg-atlanta-20made-20sign-20orange {
@@ -559,7 +559,7 @@ ul li {
 }
 
 .webp .bg-atlanta-20made-20sign-20orange {
-    background-image: url("/img-webp/atlanta-made-sign-orange.webp");
+    background-image: url("img-webp/atlanta-made-sign-orange.webp");
 }
 
 @media (max-width: 1024px) {

@@ -82,7 +82,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png"), url("img-webp/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -546,6 +546,22 @@ ul li {
     padding: 8px;
 }
 
+.no-webp .bg-atlanta-20made-20sign {
+    background-image: url("img/atlanta-made-sign.jpg");
+}
+
+.webp .bg-atlanta-20made-20sign {
+    background-image: url("/img-webp/atlanta\ made\ sign.webp");
+}
+
+.no-webp .bg-atlanta-20made-20sign-20orange {
+    background-image: url("img/atlanta-made-sign-orange.jpg");
+}
+
+.webp .bg-atlanta-20made-20sign-20orange {
+    background-image: url("/img-webp/atlanta\ made\ sign\ orange.webp");
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -560,27 +576,12 @@ ul li {
     }
 }
 
-@media (min-width: 1024px) {
-    .bg-atlanta-20made-20sign {
-        background-image: url("img/atlanta\ made\ sign\ 3x.jpg");
-    }
-    .bg-atlanta-20made-20sign-20orange {
-        background-image: url("img/atlanta\ made\ sign\ orange\ 3x.jpg");
-    }
-}
-
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%;
     }
     .nav-center.navbar .nav {
         max-width: 100%;
-    }
-    .bg-atlanta-20made-20sign {
-        background-image: url("img/atlanta\ made\ sign\ 2x.jpg");
-    }
-    .bg-atlanta-20made-20sign-20orange {
-        background-image: url("img/atlanta\ made\ sign\ orange\ 2x.jpg");
     }
 }
 
@@ -593,12 +594,6 @@ ul li {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
-    }
-    .bg-atlanta-20made-20sign {
-        background-image: url("img/atlanta\ made\ sign\ 3x.jpg");
-    }
-    .bg-atlanta-20made-20sign-20orange {
-        background-image: url("img/atlanta\ made\ sign\ orange\ 3x.jpg");
     }
 }
 
@@ -774,12 +769,6 @@ ul li {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-    .bg-atlanta-20made-20sign {
-        background-image: url("img/atlanta\ made\ sign\ 1x.jpg");
-    }
-    .bg-atlanta-20made-20sign-20orange {
-        background-image: url("img/atlanta\ made\ sign\ orange\ 1x.jpg");
     }
 }
 

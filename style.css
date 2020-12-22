@@ -18,15 +18,6 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -103,22 +94,6 @@ a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, 0.9);
-}
-
-.d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, 0.2);
-}
-
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -136,63 +111,6 @@ a:hover {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .panel {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, 0.7);
-}
-
-.d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, 0.1);
-}
-
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, 0.7);
-    border-color: rgba(0, 0, 0, 0.3);
-}
-
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, 0.5);
@@ -201,19 +119,6 @@ a:hover {
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, 0.7);
-}
-
-.l-bloc .icon-round,
-.l-bloc .icon-square,
-.l-bloc .icon-rounded,
-.l-bloc .icon-semi-rounded-a,
-.l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, 0.7);
-}
-
-.d-bloc .panel .divider-h span,
-.l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, 0.1);
 }
 
 .d-bloc .panel .a-btn,
@@ -234,34 +139,8 @@ a:hover {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, 0.6);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover,
-.l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, 0.7);
-    border-color: rgba(0, 0, 0, 0.3);
 }
 
 .voffset {
@@ -307,14 +186,6 @@ a:hover {
     display: inline;
 }
 
-.navbar-brand img[src$="svg"] {
-    min-width: 100px;
-}
-
-.nav-center .navbar-brand img {
-    margin: 0;
-}
-
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
@@ -326,15 +197,6 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-}
-
-.navbar-nav .open .dropdown-menu>li>a {
-    text-align: inherit;
-}
-
-.nav>li a:hover,
-.nav>li a:focus {
-    background: transparent;
 }
 
 .navbar-toggle {
@@ -349,17 +211,6 @@ a:hover {
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, 0.5);
     width: 26px;
-}
-
-.nav-invert .navbar .nav {
-    float: left;
-}
-
-.nav-invert .navbar-header,
-.nav-invert .navbar-brand {
-    float: right;
-    position: relative;
-    z-index: 2;
 }
 
 @media (min-width: 768px) {
@@ -403,61 +254,13 @@ a:hover {
     }
 }
 
-.nav>li>.dropdown a {
-    background: none !important;
-    display: block;
-    padding: 14px 15px;
-}
-
-nav .caret {
-    margin: 0 5px;
-}
-
-.dropdown-menu .dropdown-menu {
-    top: -8px;
-    left: 100%;
-}
-
-.dropdown-menu .dropmenu-flow-right {
-    top: 100%;
-    left: 0;
-    margin-left: -1px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-
-.dropdown-menu .dropdown span {
-    border: 4px solid black;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    margin: 6px -5px 0 0 !important;
-    float: right;
-}
-
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-
 .btn {
     margin: 0 5px 5px 0;
-}
-
-.btn.pull-right {
-    margin: 0 0 5px 5px;
-}
-
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.3);
 }
 
 button {
@@ -485,49 +288,6 @@ button {
 
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.panel-sq,
-.panel-sq .panel-heading,
-.panel-sq .panel-footer {
-    border-radius: 0;
-}
-
-.panel-rd {
-    border-radius: 30px;
-}
-
-.panel-rd .panel-heading {
-    border-radius: 29px 29px 0 0;
-}
-
-.panel-rd .panel-footer {
-    border-radius: 0 0 29px 29px;
-}
-
-.form-control {
-    border-color: rgba(0, 0, 0, 0.1);
-    box-shadow: none;
-}
-
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all 0.3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
 }
 
 a[data-lightbox] {
@@ -668,20 +428,6 @@ a {
     font-size: 38px;
 }
 
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
-}
-
 p {
     font-size: 12px;
     color: #000;
@@ -690,11 +436,6 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -733,10 +474,6 @@ h1 {
     color: #333333 !important;
 }
 
-h4 {
-    color: #333333 !important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -753,10 +490,6 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
-}
-
-.avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
@@ -796,25 +529,8 @@ h4 {
     color: #000 !important;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #f3976c !important;
-    color: #000 !important;
-}
-
 .ltc-white {
     color: #ffffff !important;
-}
-
-.ltc-white:hover {
-    color: #cccccc !important;
-}
-
-.ltc-atomic-tangerine {
-    color: #2f0cf3 !important;
-}
-
-.ltc-atomic-tangerine:hover {
-    color: #c27956 !important;
 }
 
 .icon-dark-slate-blue {
@@ -822,20 +538,8 @@ h4 {
     border-color: #364577 !important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
-
-.bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg"), url("img-webp/atlanta\ made\ sign.webp");
-}
-
-.bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg"), url("img-webp/atlanta\ made\ sign\ orange.webp");
 }
 
 ul li {
@@ -856,12 +560,27 @@ ul li {
     }
 }
 
+@media (min-width: 1024px) {
+    .bg-atlanta-20made-20sign {
+        background-image: url("img/atlanta\ made\ sign\ 3x.jpg");
+    }
+    .bg-atlanta-20made-20sign-20orange {
+        background-image: url("img/atlanta\ made\ sign\ orange\ 3x.jpg");
+    }
+}
+
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%;
     }
     .nav-center.navbar .nav {
         max-width: 100%;
+    }
+    .bg-atlanta-20made-20sign {
+        background-image: url("img/atlanta\ made\ sign\ 2x.jpg");
+    }
+    .bg-atlanta-20made-20sign-20orange {
+        background-image: url("img/atlanta\ made\ sign\ orange\ 2x.jpg");
     }
 }
 
@@ -874,6 +593,12 @@ ul li {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .bg-atlanta-20made-20sign {
+        background-image: url("img/atlanta\ made\ sign\ 3x.jpg");
+    }
+    .bg-atlanta-20made-20sign-20orange {
+        background-image: url("img/atlanta\ made\ sign\ orange\ 3x.jpg");
     }
 }
 
@@ -1049,6 +774,12 @@ ul li {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .bg-atlanta-20made-20sign {
+        background-image: url("img/atlanta\ made\ sign\ 1x.jpg");
+    }
+    .bg-atlanta-20made-20sign-20orange {
+        background-image: url("img/atlanta\ made\ sign\ orange\ 1x.jpg");
     }
 }
 

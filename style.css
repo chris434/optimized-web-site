@@ -107,7 +107,6 @@ a:hover {
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
-.d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
@@ -405,7 +404,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
